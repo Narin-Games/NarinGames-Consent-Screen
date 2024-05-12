@@ -1,0 +1,34 @@
+{
+  "name": "naringames-consent-screen",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "NarinGames Consent Screen (SSO - Login & Sign-up user)",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "build:dev": "rollup -c --environment NODE_ENV:development",
+    "build": "rollup -c --environment NODE_ENV:production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Narin-Games/NarinGames-Consent-Screen.git"
+  },
+  "author": "mohammad bagheri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Narin-Games/NarinGames-Consent-Screen/issues"
+  },
+  "homepage": "https://github.com/Narin-Games/NarinGames-Consent-Screen#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "rollup": "^4.17.2"
+  }
+}
